@@ -102,6 +102,7 @@
     display: inline-block;
     padding: 1rem 1.5rem 0;
 }
+.bars:hover {cursor: pointer;}
 /*mobile*/
 .mobile {
     width: 100%;
@@ -128,6 +129,7 @@
 }
 .mobile-list a {
     padding: 0.75rem 0.75rem;
+    margin: 0.75rem 0;
 }
 .mobile-list a:hover {
     color: var(--white);
