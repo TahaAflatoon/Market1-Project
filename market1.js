@@ -1,9 +1,11 @@
 /*JQuery*/
 $.noConflict()
 jQuery(document).ready(function($) {
+    //search icon button
     $('.fa-search').click(function() {
         $('.search-input').toggle(500);
     }),
+    //bars button
     $('.bars').click(function() {
         $('.mobile').slideToggle(500);
     }),
@@ -29,7 +31,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// side navigation menu
+//side navigation menu
 function openNav() {
     document.getElementById("mySidenav").style.width = "75%";
 }
