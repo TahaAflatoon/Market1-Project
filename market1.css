@@ -510,13 +510,14 @@ form label {
 }
 /*form fields*/
 #Name {
-    background: var(--white) url('./Pictures/person-30.png') 0 5px no-repeat
+    background: var(--white) url('./Pictures/person-30.png') 0 5px no-repeat;
 }
 #Email {
-    background: var(--white) url('./Pictures/email-30.png') 0 5px no-repeat
+    background: var(--white) url('./Pictures/email-30.png') 0 5px no-repeat;
 }
 #Message {
-    background: var(--white) url('./Pictures/message-30.png') 0 5px no-repeat
+    background: var(--white) url('./Pictures/message-30.png') 0 5px no-repeat;
+    resize: none;
 }
 /*submit*/
 button[type="submit"] {
@@ -574,7 +575,7 @@ button[type="submit"]:hover {
     font-size: 35px;
 }
 .top-button i:hover {
-    background-color: var(--black);
+    color: var(--white2);
 }
 /*social links*/
 .social-links {
