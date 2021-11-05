@@ -1,19 +1,19 @@
-/* (Responsive)*/
+/* (Responsive) */
 /* Mobile (small) */
 @media screen and (min-width:320px) and (max-width:374px) {
-/*header*/
+/* header */
 .links {
     display: none;
 }
 .bars-part {
     display: block;
 }
-/*content*/
+/* content */
 .our-work {
     margin-bottom: 1.5rem;
     text-align: center;
 }
-/*pricing*/
+/* pricing */
 .pricing-list {
     display: flex;
     flex-flow: column wrap;
@@ -26,11 +26,11 @@
     padding-bottom: 1rem;
     box-shadow: none;
 }
-/*sideMenu button*/
+/* sideMenu button */
 .sideMenu-button {
     display: inline-block;
 }
-/*contact*/
+/* contact */
 .contact-options {
     flex-flow: column wrap;
     align-content: center;
@@ -41,11 +41,11 @@
 .address, .form {
     width: 90%;
 }
-/*map*/
+/* map */
 .map {
     height: 300px;
 }
-/*back to top button*/
+/* back to top button */
 .back-top {
     position: absolute;
     top: 1rem;

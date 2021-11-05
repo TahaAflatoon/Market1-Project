@@ -17,7 +17,7 @@
 }
 
 /* CSS */
-/*header*/
+/* header */
 .header {
     width: 100%;
     height: 50px;
@@ -27,7 +27,7 @@
     top: 0;
     z-index: 2;
 }
-/*market links*/
+/* market links */
 .market-links {
     display: flex;
     flex-flow: row wrap;
@@ -39,7 +39,7 @@
     margin-bottom: 1rem;
     background-color: var(--blue);
 }
-/*links & droplist*/
+/* links & droplist */
 .market-links a, .droplist {
     height: 50px;
     color: var(--white);
@@ -56,7 +56,7 @@
     background-color: var(--white);
     color: var(--black);
 }
-/*dropdown*/
+/* dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -78,7 +78,7 @@
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 
-/*search input*/
+/* search input */
 .search-input {
     border: none;
     outline: none;
@@ -97,7 +97,7 @@
 .search i {padding-right: 0.5rem;}
 .search i:hover {cursor: pointer;}
 
-/*menu icon*/
+/* menu icon */
 .bars {
     height: 50px;
     color: var(--white);
@@ -106,7 +106,7 @@
 }
 .bars:hover {cursor: pointer;}
 
-/*mobile*/
+/* mobile */
 .mobile {
     width: 100%;
     height: auto;
@@ -120,7 +120,7 @@
 .mobile-list {
     list-style-type: none;
 }
-/*mobile links*/
+/* mobile links */
 .mobile-list a {
     color: var(--white);
     display: block;
@@ -147,7 +147,7 @@
 .mobile-list i {
     padding-right: 0.5rem;
 }
-/*mobile search*/
+/* mobile search */
 .mobile-search {
     display: block;
     margin: 0 auto 0;
@@ -161,10 +161,10 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-/*bars in large screen*/
+/* bars in large screen */
 .bars-part {display: none;}
 
-/*content*/
+/* content */
 .learn {
     width: 100%;
     height: 620px;
@@ -193,7 +193,7 @@
 .learn-btn:hover {
     background-color: var(--blue);
 }
-/*team*/
+/* team */
 .team {
     width: 100%;
     height: auto;
@@ -211,7 +211,7 @@
     list-style-type: none;
     padding-top: 2em;
 }
-/*team figures*/
+/* team figures */
 .figure-img {
     width: 125px;
     height: 125px;
@@ -226,7 +226,7 @@
     color: var(--black);
     font-size: 15pt;
 }
-/*work*/
+/* work */
 .work {
     width: 100%;
     height: auto;
@@ -243,7 +243,7 @@
     margin-bottom: 0;
     padding: 2em 0;
 }
-/*work figures & title*/
+/* work figures & title */
 .figure2, .our-work {
     width: 235px;
     height: auto;
@@ -272,7 +272,7 @@
     padding-top: 1rem;
     font-weight: normal;
 }
-/*services*/
+/* services */
 .services {
     width: 100%;
     height: auto;
@@ -285,7 +285,7 @@
     letter-spacing: 2.5px;
     padding-top: 1em;
 }
-/*pricing list*/
+/* pricing list */
 .pricing-list {
     list-style-type: none;
     width: 100%;
@@ -298,7 +298,7 @@
     height: auto;
     margin: 0 auto 0;
 }
-/*pricing options*/
+/* pricing options */
 .list-options {
     box-shadow: 0 0 2.5px var(--black);
     border-radius: 5px;
@@ -327,7 +327,7 @@
 .options-price {
     padding: 1.5em 0;
 }
-/*option signUp*/
+/* option signUp */
 .option-signUp {
     padding: 1.5rem 0;
     background-color: var(--white5);
@@ -357,7 +357,7 @@
 .pro-option {
     background-color: var(--white4);
 }
-/*side menu button*/
+/* side menu button */
 .sideMenu-button {
     padding: 1rem;
     background-color: var(--blue);
@@ -372,7 +372,7 @@
 .sideMenu-button:hover {
     cursor: pointer;
 }
-/*side menu*/
+/* side menu */
 .sidenav {
     height: 93%;
     width: 0;
@@ -385,7 +385,7 @@
     transition: 0.5s;
     padding-top: 60px;
 }
-/*sidenav close button*/
+/* sidenav close button */
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -398,7 +398,7 @@
     color: var(--blue);
     text-decoration: none;
 }
-/*mobile services list*/
+/* mobile services list */
 .mobile-servicesList {
     list-style-type: none;
     text-align: left;
@@ -428,7 +428,7 @@
     background-color: var(--white5);
     color: var(--black);
 }
-/*contact*/
+/* contact */
 .contact {
     width: 100%;
     height: auto;
@@ -442,7 +442,7 @@
     list-style-type: none;
     padding: 2em 0;
 }
-/*address & form*/
+/* address & form */
 .address {
     width: 45%;
     height: auto;
@@ -474,7 +474,7 @@
 .address-info li {
     padding: 0.5rem 0;
 }
-/*contact icons*/
+/* contact icons */
 .marker {
     padding-right: 1rem;
     color: var(--white5);
@@ -508,7 +508,7 @@ form label {
     list-style-type: none;
     padding-top: 1rem;
 }
-/*form fields*/
+/* form fields */
 #Name {
     background: var(--white) url('./Pictures/person-30.png') 0 5px no-repeat;
 }
@@ -519,7 +519,7 @@ form label {
     background: var(--white) url('./Pictures/message-30.png') 0 5px no-repeat;
     resize: none;
 }
-/*submit*/
+/* submit */
 button[type="submit"] {
     padding: 0.5rem;
     background-color: var(--black);
@@ -540,12 +540,12 @@ button[type="submit"]:hover {
     background-color: var(--white2);
     color: var(--black);
 }
-/*map image*/
+/* map image */
 .map {
     width: 100%;
     height: 610px;
 }
-/*footer*/
+/* footer */
 .footer {
     width: 100%;
     height: auto;
@@ -560,7 +560,7 @@ button[type="submit"]:hover {
     justify-content: center;
     list-style-type: none;
 }
-/*back to top button*/
+/* back to top button */
 .back-top {
     position: absolute;
     right: 100px;
@@ -577,7 +577,7 @@ button[type="submit"]:hover {
 .top-button i:hover {
     color: var(--white2);
 }
-/*social links*/
+/* social links */
 .social-links {
     display: flex;
     flex-flow: row wrap;
