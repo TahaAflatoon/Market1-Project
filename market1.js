@@ -33,10 +33,10 @@ window.addEventListener('scroll', function() {
 
 // Side navigation menu
 function openNav() {
-    document.getElementById("mySidenav").style.width = "75%";
+    document.querySelector('#mySidenav').style.width = "75%";
 }
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.querySelector('#mySidenav').style.width = "0";
 }
 
 // Go to top button
